@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-semibold" href="index.html">Zverimex</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
+              aria-controls="nav" aria-expanded="false" aria-label="Přepnout navigaci">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Domů</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="nase-zvirata.html">Naše zvířata</a></li>
+          <li class="nav-item"><a class="nav-link" href="zvirata.html">K prodeji</a></li>
+          <li class="nav-item"><a class="nav-link " aria-disabled="true" href="oplemeni.html">O plemeni & Péče</a></li>
+          <li class="nav-item"><a class="nav-link " aria-disabled="true" href="kontakt.html">Kontakt & Rezervace</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ <body>
+
+    <div class="container my-4">
+  <div class="row">
+    
+    <div class="col-md-6">
+      <h5>Pro zákazníky</h5>
+      <p>📞 +420 222 745 354</p>
+      <p>Po-Ne 08:00-18:00</p>
+      
+      
+      <div class="alert alert-success mt-3">
+  <strong>Upozornění na výjimečnou dostupnost infolinky:</strong>
+  <ul class="list-unstyled">
+    <li>23. 12. 08:00-18:00</li>
+    <li>24. 12. 08:00-14:00</li>
+    <li>25. 12. – 31. 12. 08:00-18:00</li>
+    <li>1. 1. 10:00-18:00</li>
+  </ul>
+</div>
+
+    </div>
+
+    
+    <div class="col-md-6">
+      <h5>Pro firmy - najděte si nové zákazníky</h5>
+      <p>📞 +420 222 745 342</p>
+      <p>Po-Pá 09:00-17:00</p>
+      
+    </div>
+  </div>
+
+  <div class="my-4"></div>
+
+  <div class="row">
+
+   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Napište nám naotic @exotickýsvet.cz</button>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Recipient:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+   
+    <div class="col-md-12">
+      <h5>Pobočka </h5>
+      <p>Slevomat - Černá růže (Přízemí)</p>
+      <p>Na Příkopě 853/12, Praha - Nové Město</p>
+      <p>Po-Pá 10:00-19:00</p>
+      <p>So 10:00-18:00</p>
+
+<div class="alert alert-success mt-3">
+  <strong>V následujících dnech má pobočka upravenou otevírací dobu:</strong>
+  <ul class="list-unstyled">
+    <li>14. 12. 10:00-18:00</li>
+    <li>21. 12. 10:00-18:00</li>
+    <li>24. 12. 08:00-12:00</li>
+    <li>25. 12. Zavřeno</li>
+    <li>26. 12. Zavřeno</li>
+    <li>31. 12. 10:00-14:00</li>
+    <li>1. 1. Zavřeno</li>
+  </ul>
+</div>
+
+      <button class="btn btn-info mt-2">Zjistit více o pobočce</button>
+    </div>
+  </div>
+</div>
+
+
+  <footer class="site-footer mt-auto">
+    <div class="container text-center small py-3">
+      © 2025 Herpetika Hradec • Otevřeno: Út–Ne 10:00–18:00 •
+      <a class="footer-link" href="mailto:@exotickýsvet.cz">@exotickýsvet.cz</a> •
+      <a class="footer-link" href="tel:+420123456789">+420&nbsp;123&nbsp;456&nbsp;789</a>
+    </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
